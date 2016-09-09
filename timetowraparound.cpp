@@ -1,8 +1,9 @@
-// Timing Code
-// 
-// This is a simple example of using the clock() function of <ctime>
-// to measure how long a code block took to run.
-//
+/*Write a C++ program that will:
+
+    measure how long an short unsigned int takes to "wrap around" from a starting value of 1
+    measure how long an unsigned int takes to "wrap around" from a starting value of 1
+    estimates how long a long unsigned int takes to "wrap around" from a starting value of 1
+*/
 
 #include <iostream>
 #include <ctime>
